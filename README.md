@@ -16,3 +16,9 @@ In addition to evaluating classification performance, the project explores the i
 - **Generalization:** Does it work on unseen donors and labs?
 - **Performance:** Can it compete with expression alone?
 - **Interpretability:** Does the interactome make the classifier easier to interpret?
+
+## Dataset
+The study focuses on three major human breast epithelial cell populations:
+<p align="center">
+  <img src"breast_epithelium.png" width="650">
+</p>
