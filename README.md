@@ -18,7 +18,24 @@ In addition to evaluating classification performance, the project explores the i
 - **Interpretability:** Does the interactome make the classifier easier to interpret?
 
 ## Dataset
-The study focuses on three major human breast epithelial cell populations:
+The study focuses on the classification of three major human breast epithelial cell populations using single-cell gene expression data.
+The dataset includes three distinct epithelial populations:
+- **B: Basal:** Myoepithelial cells
+
+KRT5 · KRT14 · ACTA2
+
+- **L1: Luminal progenitor:** Highly proliferative luminal epithelial cells
+
+KIT · SLPI · ALDH1A3
+
+- **L2: Mature luminal:** Hormone-responsive luminal epithelial cells
+
+ESR1 · PGR · FOXA1
+
 <p align="center">
-  <img src"breast_epithelium.png" width="650">
+  <img src="breast_epithelium.png" width="650" alt="Human Breast Epithelial Cell Populations">
+</p>
+
+<p align="center">
+  <em>Figure 1. Representation of human breast epithelial cell populations.</em>
 </p>
