@@ -18,8 +18,12 @@ In addition to evaluating classification performance, the project explores the i
 - **Interpretability:** Does the interactome make the classifier easier to interpret?
 
 ## Dataset
-The study focuses on the classification of three major human breast epithelial cell populations using single-cell gene expression data.
-The dataset includes three distinct epithelial populations:
+The study integrates single-cell RNA-seq data from:
+- **Nguyen et al. (2018):** Breast epithelial cells used for model training and donor-level validation.
+- **Twigger et al. (2022):** Non-lactating breast epithelial cells used as an independent dataset for external validation.
+- **Luck et al. (2020):** HuRI human protein-protein interaction network.
+
+Three distinct epithelial populations are classified:
 - **B: Basal:** Myoepithelial cells
 
 KRT5 · KRT14 · ACTA2
@@ -39,3 +43,8 @@ ESR1 · PGR · FOXA1
 <p align="center">
   <em>Figure 1. Representation of human breast epithelial cell populations.</em>
 </p>
+
+## References
+1. Nguyen, Q.H. et al. (2018). Nat. Commun., 9, 2028. https://doi.org/10.1038/s41467-018-04334-1
+2. Twigger, A.J. et al. (2022). Nat. Commun., 13, 562. https://doi.org/10.1038/s41467-021-27895-0
+3. Luck, K. et al. (2020). Nature, 580, 402–408. https://doi.org/10.1038/s41586-020-2188-x
